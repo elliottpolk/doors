@@ -1,18 +1,12 @@
 # Doors
 
----
-
 **_Doors_** is intended to be a super simple test of the [Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_Hall_problem), specifially to [Marilyn vos Savant](https://en.wikipedia.org/wiki/Marilyn_vos_Savant)'s suggested solution of switching'every time. Please **note**, this is by no means commentary. The intent is purely for fun of testing.
 
 ## Dependencies
 
----
-
 [Go](https://golang.org/dl/)
 
 ## Build
-
----
 
 ```bash
 $ go get -v ./...
@@ -22,8 +16,6 @@ $ go build
 
 
 ## Usage
-
----
 
 ```bash
 $ ./doors -g 3000 -i 10
